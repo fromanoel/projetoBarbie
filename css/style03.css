@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("../img/wallpaper\ glitter\ rosa.jpg");
+    background-repeat: repeat;
+}
+
+header .menu{
+    background-color: #EC409A;
+    width: 45vh;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu img{
+    width: 50%;
+    border-radius: 20px;
+    padding-top: 20px;
+    
+}
+
+header .menu > a{
+    text-align: center;
+}
+
+header .menu ul{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header .menu ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+header .menu ul li a{
+    padding: 5px 7px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+header .menu ul li:last-child{
+    background-color: rgba(214, 70, 166, 0.808);
+    border-radius: 4px;
+}
+
+header .menu ul li a:hover{
+   background-color: aliceblue;
+   color: #EC409A;
+   border-radius: 4px;
+}
+
+header .menu ul li span{
+    display: block;
+}
+
+header .menu div{
+    width: 100%;
+    height: 15vh;
+    background-image: linear-gradient(to top, rgba(255, 56, 189, 0.5), rgba(236, 64, 154, 1)),
+                      url("../img/wallpaper\ glitter\ rosa.jpg");
+    background-size: cover;
+    background-position: center center; 
+}
+
+main .intro, main .retro, main .diversidade{
+    background-color:#EC409A;
+    width: 45vh;
+    margin: auto;
+    color: white;
+    text-align: center;
+    
+}
+
+main section > h1, main section > h2{
+    padding: 20px 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main section > h1{
+    font-size: 28px;
+}
+
+main section > h2{
+    font-size: 25px;
+}
+
+main section > div p{
+    padding: 20px 30px;
+    text-align: justify;
+}
+
+main .intro img, main .retro img , main .diversidade img{
+    width: 90%;
+}
+
+main section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .diversidade{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #ec087e;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+    margin-top: 12px;
+}
+
+@media screen and (min-width:1000px){
+    header .menu{
+        width: 1200px;
+        
+    }
+
+    header .menu > a{
+        width: 600px;
+    }
+
+    header .menu ul li a{
+        padding: 28px 28px;
+        font-size: 28px;
+    }
+
+    main > .intro, main > .retro, main > .diversidade{
+        width: 1200px;
+    }
+
+    main > .intro img, main > .retro img, main > .diversidade img{
+        width: 400px;
+    }
+
+    main > .intro > h1{
+        font-size: 60px;
+    }
+
+    main > .intro > div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main > .intro > div > p, main > .retro > div p, main > .diversidade > div p{
+         font-size: 20px;
+    }
+
+    main > .retro > h2, main > .diversidade > h2{
+        font-size: 40px;
+    }
+
+    main > .retro > div{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    main > .diversidade{
+        padding-bottom: 50px;
+    }
+
+    main > .diversidade > div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main > .diversidade > div img{
+        margin-left: 50px;
+    }
+
+    footer{
+        padding: 30px;
+        width: 1200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 740px) and  (max-width: 1000px){
+    header .menu{
+        width: 500px;
+        
+    }
+
+    header .menu > a{
+        width: 500px;
+    }
+
+    header .menu ul li a{
+        padding: 28px 28px;
+        font-size: 20px;
+    }
+
+    main .intro, main .retro, main .diversidade{
+        width: 500px;
+    }
+
+    main .intro img, main .retro img , main .diversidade img{
+        width: 50%;
+    }
+}
+

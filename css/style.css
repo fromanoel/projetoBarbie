@@ -1,0 +1,377 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("../img/wallpaper\ glitter\ rosa.jpg");
+    background-repeat: repeat;
+}
+
+header .menu{
+    background-color: #EC409A;
+    width: 45vh;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu img{
+    width: 50%;
+    border-radius: 20px;
+    padding-top: 20px;
+    
+}
+
+header .menu > a{
+    text-align: center;
+}
+
+header .menu ul{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header .menu ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+header .menu ul li a{
+    padding: 5px 7px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+header .menu ul li a:hover{
+   background-color: aliceblue;
+   color: #EC409A;
+   border-radius: 4px;
+}
+
+header .menu ul li span{
+    display: block;
+}
+
+header .menu div{
+    width: 100%;
+    height: 15vh;
+    background-image: linear-gradient(to top, rgba(255, 56, 189, 0.5), rgba(236, 64, 154, 1)),
+                      url("../img/wallpaper\ glitter\ rosa.jpg");
+    background-size: cover;
+    background-position: center center; 
+}
+
+main .fama, main .cadastro, main .recomendacao{
+    background-color: #EC409A;
+    width: 45vh;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+main .fama > div > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+main .fama img:nth-child(1), main .cadastro > img{
+    border-radius: 5px;
+
+}
+
+main .fama img:nth-child(2){
+    width: 90%;
+    padding: 20px 0px;
+}
+
+main .fama > div > div p{
+    padding: 15px 30px;
+    text-align: justify;
+}
+
+main .cadastro{
+    background-color: #EC409A;
+    
+}
+
+main .cadastro > div{
+    border: 5px solid #ec409965;
+    background-color: rgb(226, 142, 189);
+    border-radius: 40px;
+    margin: 25px 0px;
+
+}
+
+main .cadastro > div img{
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main .cadastro > div > div{
+    padding: 15px 15px;
+}
+
+main .cadastro > div div > h2{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+main .cadastro > div > div form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+main .cadastro > div > div form input {
+    background-color: #EC409A;
+    color: white;
+    padding: 15px 0px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    outline: none;
+    text-align: center;
+}
+
+main .cadastro > div > div form input:nth-last-child(1){
+    background-color: #b83377;
+    transition: all 0.2s ease-in-out;
+}
+
+main .cadastro > div > div form input:nth-last-child(1):hover{
+    background-color: #b8337831 ;
+    transform: scale(0.95);
+}
+
+main .cadastro > div > div form input:nth-last-child(1):active{
+    background-color: #EC409A;
+    transform: scale(1);
+}
+
+main .cadastro > div > div form input::placeholder{
+    color: white;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main .recomendacao{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
+}
+
+main .recomendacao h2{
+    padding: 0px 10px 20px 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main .recomendacao .comentario {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    border: 2px solid rgb(226, 142, 189);
+    background-color: rgb(226, 142, 189);
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: justify;
+    margin: 10px 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .foto-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  main .recomendacao .comentario > div h3{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-bottom: 8px;
+  } 
+  
+  .conteudo-comentario {
+    padding: 0px 10px;
+    line-height: 23px;
+    word-spacing: 2px;
+  }
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #ec087e;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+    margin-top: 12px;
+}
+
+@media screen and (min-width: 1000px){
+    header .menu{
+        width: 1200px;
+        
+    }
+
+    header .menu > a{
+        width: 600px;
+    }
+
+    header .menu ul li a{
+        padding: 28px 28px;
+        font-size: 28px;
+    }
+
+    main > .fama, main > .cadastro, main > .recomendacao{
+        width: 1200px;
+    }
+
+    main > .fama > div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main > .fama > div > div img:first-child{
+        margin-left: 100px;
+        margin-top: 50px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    main > .fama > div > div img:last-child{
+        width: 500px;
+        padding-left: 100px;
+        padding-bottom: 30px;
+    }
+
+    main .fama > div > div:last-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .fama > div > div:last-child p{
+        font-size: 20px;
+        padding-right: 100px;
+    }
+
+    main .cadastro > div{
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0px;
+    }
+
+    main .cadastro > div img{
+        width: 400px;
+        border-bottom-left-radius: 35px;
+    }
+
+    main .cadastro > div > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .cadastro > div > div h2{
+        font-size: 25px;
+    }
+
+    main .cadastro > div > div form input, main .cadastro > div > div form input::placeholder{
+        font-size: 20px;
+    }
+
+    main .recomendacao {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    main .recomendacao > h2{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    main .recomendacao > div{
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0px;
+    }
+
+    main .recomendacao > div .comentario{
+        width: 350px;
+    }
+
+    main .recomendacao > div .comentario p{
+        font-size: 18px;
+    }
+
+    .foto-perfil {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      main .recomendacao .comentario > div h3{
+        font-size: 25px;
+        padding-bottom: 25px;
+      } 
+
+      main .recomendacao{
+        margin-bottom: 30px;
+      }
+      
+      footer{
+        padding: 30px;
+        width: 1200px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 740px)  and  (max-width: 1000px){
+    header .menu{
+        width: 500px;
+        
+    }
+
+    header .menu > a{
+        width: 500px;
+    }
+
+    header .menu ul li a{
+        padding: 28px 28px;
+        font-size: 20px;
+    }
+
+    main > .fama, main > .cadastro, main > .recomendacao{
+        width: 500px;
+    }
+}

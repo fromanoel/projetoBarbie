@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("../img/blackGlitter.jpg");
+    background-repeat: repeat;
+}
+
+header .menu{
+    background-color: black;
+    width: 45vh;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu img{
+    width: 50%;
+    border-radius: 20px;
+    padding-top: 20px;
+    
+}
+
+header .menu > a{
+    text-align: center;
+}
+
+header .menu ul{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header .menu ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+header .menu ul li a{
+    padding: 5px 7px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+header .menu ul li:nth-child(2){
+    background-color: rgba(214, 70, 166, 0.808);
+    border-radius: 4px;
+}
+
+header .menu ul li a:hover{
+   background-color: aliceblue;
+   color: #EC409A;
+   border-radius: 4px;
+}
+
+header .menu ul li span{
+    display: block;
+}
+
+header .menu div{
+    width: 100%;
+    height: 15vh;
+    background-image: linear-gradient(to top, rgba(39, 37, 38, 0.5), rgb(0, 0, 0, 0.1)),
+                      url("../img/blackGlitter.jpg");
+    background-size: cover;
+    background-position: center center; 
+}
+
+main .bonecas, main .personagem, main .sorteio{
+    background-color:rgba(65, 61, 61, 0.267);
+    width: 45vh;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+main .bonecas img{
+    width: 100%;
+}
+
+main .bonecas > h3, main .personagem > h3, main .sorteio h3{
+    padding: 30px 5px;
+    font-size: 26px;
+}
+
+main .bonecas > h3{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+main .bonecas > h4{
+    padding: 20px 0px;
+}
+
+main .bonecas > div p{
+    font-size: 18px;
+}
+
+main .bonecas > div p, main .sorteio p{
+    text-align: justify;
+    padding: 15px 30px;
+}
+
+main .personagem img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+main .personagem > div > div h4{
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 20px;
+}
+
+main .sorteio{
+    padding-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+main .sorteio form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+main .sorteio form input{
+    padding: 10px 8px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: all 0.5s;
+    color: white;
+    border: 1px solid white;
+    background-color: #fa0081c5;
+    outline: none;
+}
+
+main .sorteio form input:first-child{
+    width: 70%;
+}
+
+main .sorteio form input::placeholder{
+    color: white;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: 18px;
+}
+
+main .sorteio form input:hover{
+    background-color: #b8337831 ;
+    transform: scale(0.95);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #ec087e;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+    margin-top: 12px;
+}
+
+@media screen and (min-width:1000px){
+    header .menu{
+        width: 1200px;
+        
+    }
+
+    header .menu > a{
+        width: 600px;
+    }
+
+    header .menu ul li a{
+        padding: 28px 28px;
+        font-size: 28px;
+    }
+
+    main > .bonecas, main > .personagem, main > .sorteio{
+        width: 1200px;
+    }
+
+    main > .bonecas > h3{
+        font-size: 80px;
+    }
+
+    main > .bonecas > h4{
+        font-size: 30px;
+    }
+
+    main > .bonecas > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        padding: 50px;
+    }
+
+    main > .bonecas > div img{
+        width: 600px;
+        border-radius: 20%;
+        margin-left: 50px;
+    }
+
+    main > .personagem > h3, main > .sorteio > h3{
+        font-size: 40px;
+        padding: 30px 0px;
+    }
+
+    main > .personagem > div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main > .personagem > div > div{
+        margin: 0px 25px;
+
+    }
+
+    main > .personagem > div > div > h4{
+        font-size: 20px;
+    }
+
+    main > .sorteio form input:first-child{
+        width: 400px;
+    }
+
+    main > .sorteio form input:last-child{
+        width: 200px;
+    }
+
+    main > .sorteio{
+        padding-bottom: 50px;
+    }
+
+    footer{
+        padding: 30px;
+        width: 1200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 740px) and  (max-width: 1000px){
+    header .menu{
+        width: 500px;
+        
+    }
+
+    header .menu > a{
+        width: 500px;
+    }
+
+    header .menu ul li a{
+        padding: 28px 28px;
+        font-size: 20px;
+    }
+
+    main .bonecas, main .personagem, main .sorteio{
+        width: 500px;
+    }
+
+    main > .bonecas > div img{
+        width: 70%}
+
+    main .personagem img{
+        width: 300px
+    }
+}
