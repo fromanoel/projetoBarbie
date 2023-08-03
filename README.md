@@ -1,5 +1,7 @@
 # PROJETO BARBIE
 
+### Visite o web site! https://fromanoel.github.io/projetoBarbie/
+
 ## Projeto web site estático e responsivo para colecionadores da boneca Barbie, através de HTML e CSS.
 
 O projeto utiliza HTML e CSS para exibir a história e a loja virtual da boneca mais famosa do mundo, de forma criativa e divertida. Sendo assim, o projeto possui uma página direcionada exclusivamente à venda de bonecas Barbie raras e limitadas, além de acessórios para os colecionadores interessados.
