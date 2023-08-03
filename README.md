@@ -1,4 +1,4 @@
-#PROJETO BARBIE
+# PROJETO BARBIE
 
 ## Projeto web site estático e responsivo para colecionadores da boneca Barbie, através de HTML e CSS.
 
